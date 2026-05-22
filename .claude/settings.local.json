@@ -36,7 +36,15 @@
       "Bash(git remote *)",
       "Bash(git push *)",
       "Bash(git branch *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(gh workflow *)",
+      "Bash(nslookup ljhpersonal.top)",
+      "Bash(dig ljhpersonal.top +short)",
+      "Bash(curl -sI https://ljhpersonal.top)",
+      "Bash(curl -sI http://ljhpersonal.top)",
+      "Bash(nslookup -type=all ljhpersonal.top)",
+      "Bash(curl -sI http://38.76.218.106)",
+      "Bash(curl -s http://38.76.218.106)"
     ]
   }
 }
