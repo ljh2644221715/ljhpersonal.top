@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(gh api *)",
+      "Bash(curl -sH \"Accept: application/vnd.github.raw+json\" https://api.github.com/repos/koure-onyx/ui-ux-promax/readme)",
+      "Bash(npm install *)",
+      "Bash(npx skills *)",
+      "Bash(uipro init *)",
+      "Bash(python3 *)",
+      "Bash(python -c \"print\\('ok'\\)\")",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(echo \"EXIT CODE: $?\")",
+      "Bash(npm run *)",
+      "Bash(npx vite *)",
+      "Bash(echo \"===EXIT: $?\")",
+      "Bash(node -e ' *)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(rm -rf dist/)",
+      "Bash(mkdir dist/)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000 -o /dev/null)",
+      "Bash(grep -c \"experience\\\\|WorkExperience\\\\|工作经历\\\\|Experience\" dist/assets/index-*.js)",
+      "Bash(grep -c \"工具与平台\\\\|Tools_Platforms\" dist/assets/index-*.js)",
+      "Bash(grep -c \"其他认证\\\\|人工智能高级训练师\" dist/assets/index-*.js)",
+      "Bash(grep -c \"项目背景各有不同\\\\|filterTabs\" dist/assets/index-*.js)",
+      "Bash(cat CNAME)",
+      "Bash(ls .gitignore)",
+      "Bash(cat .gitignore)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
